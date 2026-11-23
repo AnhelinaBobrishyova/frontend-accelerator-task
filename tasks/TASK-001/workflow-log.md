@@ -16,7 +16,7 @@ Active work started: `2026-11-23T22:50:00+01:00`
 
 | Time | Role | Exact prompt used | Result reviewed | Developer decision | Next action |
 | --- | --- | --- | --- | --- | --- |
-| `time not recorded` | `requirements-analyst` | `Prompt 1 below` | `tasks/TASK-001/requirements.md` | `accept` | `writing-plans` |
+| `2026-11-23T23:05:47+01:00` | `requirements-analyst` | `Prompt 1 below` | `tasks/TASK-001/requirements.md` | `accept` | `writing-plans` |
 | `2026-11-23T23:09:46+01:00` | `writing-plans` | `Prompt 2 below` | `tasks/TASK-001/implementation-plan.md` | `accept` | `coder` |
 | `2026-11-23T23:15:14+01:00` | `coder` | `Prompt 3 below` | `src/sessionsApi.ts`, `src/App.tsx`, `src/App.css`, `src/index.css`, `src/App.test.tsx`; tests/lint/build reported passing | `accept for read-only review` | `code-reviewer` |
 | `2026-11-23T23:16:38+01:00` | `code-reviewer` | `Prompt 4 below` | `tasks/TASK-001/review.md`; verdict `NEEDS-CHANGES` with one P2 AC8 race | `correct` | `coder correction for the reviewed finding` |
